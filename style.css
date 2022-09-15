@@ -37,6 +37,14 @@ a {
     text-align: center;
 }
 
+.nechet {
+    background-color: rgb(113, 199, 120);
+}
+
+.chet {
+    background-color: rgb(54, 145, 61);
+}
+
 ol, nav, table, form {
     max-width: 960px;
     margin: 0 auto;
