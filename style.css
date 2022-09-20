@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
     background-color: rgb(197, 231, 199);
     
 }
@@ -21,16 +21,44 @@ header {
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.main {
+    margin: 0 auto;
+    max-width: 960px;
+    background-color: rgb(76, 156, 83);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+
+}
+
+nav ul{
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+
+}
+
+nav ul li{
+    display:inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 nav a {
     text-decoration: none;
 
 }
+
 .link {
     margin-right: 10px;
 }
+
 a {
-    color: rgb(46, 109, 51);
+    color: rgb(14, 46, 17);
 }
+
  table,th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -49,7 +77,7 @@ ol, nav, table, form {
     max-width: 960px;
     margin: 0 auto;
     margin-bottom: 10px;
-    margin-left: 300px;
+    margin-left: 10px;
 
 }
 
