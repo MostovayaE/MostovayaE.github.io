@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title> Задание 1</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title> Задание 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <header>
-            <img id="logo" src="logo.png" alt="Логотип">
-            <h1>Название сайта</h1>
-        </header>
+<body>
+    <header>
+        <img id="logo" src="logo.png" alt="Логотип">
+        <h1>Название сайта</h1>
+    </header>
+    <div class="main">
         <nav>
-            <a href="#top" class="link"> Список ссылок </a>
-            <a href="#table" class="link"> Таблица </a>
-            <a href="#bottom" class="link"> Форма </a>
+            <ul>
+                <li><a href="#top" class="link"> Список ссылок </a></li>
+                <li><a href="#table" class="link"> Таблица </a></li>
+                <li><a href="#bottom" class="link"> Форма </a></li>
+            </ul>
         </nav>
-        <p><a name="top"></a></p>
+    </div>
+    <p><a name="top"></a></p>
+    <div class="main">
         <ol>
             <li> <a href="http://example.com/"> Ссылка 1 </a> </li>
             <li> <a href="https://example.com/"> Ссылка 2 </a> </li>
@@ -37,14 +42,17 @@
                 <!--noindex--> <a href="http://example.com/"> Ссылка 12 </a>
                 <!--/noindex-->
             </li>
-            <li> <p> Ссылка №13 - <a href="http://example.com/"> Ссылка 13 </a> </p> </li>
-            <li> <a href="http://example.com/"> <img src = "image.jpg" width ="350" height="300" alt="Изображение не найдено"></a> </li>
             <li>
-                <img src = "im2.jpg" usemap="#map" alt="Изображение не найдено">
+                <p> Ссылка №13 - <a href="http://example.com/"> Ссылка 13 </a> </p>
+            </li>
+            <li> <a href="http://example.com/"> <img src="image.jpg" width="350" height="300"
+                        alt="Изображение не найдено"></a> </li>
+            <li>
+                <img src="im2.jpg" usemap="#map" alt="Изображение не найдено">
                 <map name="map">
-                <area shape="circle" coords="57,57,30"  href="http://example.com/" alt="Область не найдена">
-                <area shape="rect" coords="133,26,185,80"  href="http://example.com/" alt="Область не найдена">
-                </map> 
+                    <area shape="circle" coords="57,57,30" href="http://example.com/" alt="Область не найдена">
+                    <area shape="rect" coords="133,26,185,80" href="http://example.com/" alt="Область не найдена">
+                </map>
             </li>
             <li> <a href="page.html"> Ссылка 16 </a> </li>
             <li> <a href="/about/page.html"> Ссылка 17 </a> </li>
@@ -53,7 +61,9 @@
             <li> <a href="/"> Ссылка 20 </a> </li>
             <li> <a href="/about"> Ссылка 21 </a> </li>
         </ol>
-        <p><a name="table"></a></p>
+    </div>
+    <p><a name="table"></a></p>
+    <div class="main">
         <table>
             <tr class="nechet">
                 <th> Заголовок 1</th>
@@ -90,16 +100,19 @@
                 <td> Ячейка 4.5 </td>
             </tr>
         </table>
-         
-        <p><a name="bottom"></a></p>
+    </div>
+
+
+    <p><a name="bottom"></a></p>
+    <div class="main">
         <form action="/" method="POST">
             <h2>Форма</h2>
             <label>
                 Введите имя:<br>
                 <input name="field-name-1" value="Имя">
-             </label><br>
-             <br>
-             <label>
+            </label><br>
+            <br>
+            <label>
                 Введите email:<br>
                 <input name="field-email" type="email" placeholder="Введите Вашу почту">
             </label><br>
@@ -123,9 +136,9 @@
             <label>
                 Выберите сверхспособность:<br>
                 <select name="field-name-4[]" multiple="multiple">
-                <option value="Значение1">Бессмертие</option>
-                <option value="Значение2">Прохождение сквозь стены</option>
-                <option value="Значение3">Левитация</option>        
+                    <option value="Значение1">Бессмертие</option>
+                    <option value="Значение2">Прохождение сквозь стены</option>
+                    <option value="Значение3">Левитация</option>
                 </select>
             </label><br>
             <br>
@@ -138,8 +151,10 @@
             <br>
             <input type="submit" value="Отправить">
         </form>
-        <footer>
-            <p>(c) Мостовая Елизавета 2022</p> 
-        </footer>
-    </body>
-    </html>
+    </div>
+    <footer>
+        <p>(c) Мостовая Елизавета 2022</p>
+    </footer>
+</body>
+
+</html>
