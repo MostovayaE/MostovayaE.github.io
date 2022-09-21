@@ -1,8 +1,8 @@
-@media screen  and (max-width: 1500px) {
+@media screen  and (max-width: 1300px) {
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(197, 231, 199); 
+    background-color: rgb(198, 231, 199); 
 }
 
 #logo {
