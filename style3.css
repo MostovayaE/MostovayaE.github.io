@@ -114,11 +114,11 @@ footer {
 }
 
 #table-form div form {
-    order: 1;
+    order: -1;
 }
 
 #table-form div table {
-    order: 2;
+    order: 0;
 }
 
 
