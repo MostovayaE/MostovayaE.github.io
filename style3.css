@@ -101,9 +101,15 @@ footer {
     
 }
 
-#table-form {
+#table-form  {
     display: flex;
     flex-direction: column;
+}
+
+#table-form form, #table-form table {
+    background-color: rgb(76, 156, 83);
+    max-width: 100%;
+    padding: 10px
 }
 
 #table-form form {
@@ -218,6 +224,11 @@ footer {
 .header {
     max-width: 960px;
     margin: 0 auto;
+    
+}
+
+#table-form  {
+    display: block;
     
 }
 }
