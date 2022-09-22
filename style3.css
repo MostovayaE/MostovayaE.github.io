@@ -101,23 +101,23 @@ footer {
     
 }
 
-#table-form  {
+.table-form  {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-#table-form form, #table-form table {
+.table-form form, #table-form table {
     background-color: rgb(76, 156, 83);
     max-width: 100%;
     padding: 10px;
 }
 
-#table-form .main form {
+.table-form .main form {
     order: -1;
 }
 
-#table-form .main table {
+.table-form .main table {
     order: 0;
 }
 
@@ -228,7 +228,7 @@ footer {
     
 }
 
-#table-form  {
+.table-form  {
     display: block;
     
 }
