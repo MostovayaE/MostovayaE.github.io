@@ -113,11 +113,11 @@ footer {
     padding: 10px;
 }
 
-#table-form div form {
+#table-form .main form {
     order: -1;
 }
 
-#table-form div table {
+#table-form .main table {
     order: 0;
 }
 
