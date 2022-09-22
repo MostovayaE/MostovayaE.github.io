@@ -103,7 +103,8 @@ footer {
 
 #table-form  {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #table-form form, #table-form table {
