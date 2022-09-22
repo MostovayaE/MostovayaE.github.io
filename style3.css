@@ -113,13 +113,10 @@ footer {
     padding: 10px;
 }
 
-.table-form .main form {
+form {
     order: -1;
 }
 
-.table-form .main table {
-    order: 0;
-}
 
 
 
