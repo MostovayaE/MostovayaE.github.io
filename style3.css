@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(197, 231, 199); 
+    background-color: rgb(104, 177, 56); 
 }
 
 #logo {
@@ -101,6 +101,17 @@ footer {
     
 }
 
+#table-form {
+    display: flex;
+}
+
+#table-form form {
+    order: 1;
+}
+
+#table-form table {
+    order: 2;
+}
 
 
 
