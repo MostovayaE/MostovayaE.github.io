@@ -23,6 +23,7 @@ header {
 
 header h1 {
     float:right; 
+    margin-right: 10px;
 }
 
 .main {
