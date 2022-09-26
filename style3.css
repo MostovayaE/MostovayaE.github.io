@@ -134,12 +134,13 @@ body {
     height: 100px;
     float: left;
     margin: 10px;
-    margin-left: 20px;
+    margin-left: 110px;
     
 }
 
 header {
     height: 120px;
+    max-width: 100%;
     background-color:rgb(76, 156, 83);
     margin-top: -20px;
     padding-top: 20px;
@@ -221,7 +222,7 @@ footer {
 
 
 .header {
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
     
 }
