@@ -224,8 +224,14 @@ footer {
     flex: 0 0 auto;
 }
 
-
-
+header
+    {
+        width:100%;
+    }
+.header
+    {
+        width:100%;
+    }
 
 #table-form {
     display: block;
