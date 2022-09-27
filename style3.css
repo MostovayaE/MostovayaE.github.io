@@ -137,7 +137,11 @@ body {
     margin-left: 110px;
     
 }
-
+.header {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
 header {
     height: 120px;
     max-width: 100%;
@@ -221,11 +225,7 @@ footer {
 }
 
 
-.header {
-    max-width: 1000px;
-    margin: 0 auto;
-    
-}
+
 
 #table-form {
     display: block;
