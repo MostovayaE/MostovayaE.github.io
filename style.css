@@ -8,14 +8,19 @@ body {
     width: 100px;
     height: 100px;
     float: left;
-   /* margin: 10px;*/
-    margin-left: 173px;
+   padding:10px;
+   
     
 }
 .header {
     max-width: 960px;
     margin: 0 auto;
     
+}
+header h1 {
+    float: none;
+    font-size: 2em;
+    padding: 30px;
 }
 header {
     width:100%;
