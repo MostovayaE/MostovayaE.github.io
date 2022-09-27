@@ -144,7 +144,7 @@ body {
 }
 header {
     height: 120px;
-    /*max-width: 100%;*/
+    width: 100%;
     background-color:rgb(76, 156, 83);
     margin-top: -20px;
     padding-top: 20px;
