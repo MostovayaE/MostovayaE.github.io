@@ -140,7 +140,6 @@ body {
 .header {
     max-width: 960px;
     margin: 0 auto;
-    width:100%;
 }
 header {
     height: 120px;
@@ -224,14 +223,7 @@ footer {
     flex: 0 0 auto;
 }
 
-header
-    {
-        width:100%;
-    }
-.header
-    {
-        width:100%;
-    }
+
 
 #table-form {
     display: block;
