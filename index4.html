@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css"
+        integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"
+        integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title> Задание 4</title>
+    <link rel="stylesheet" href="style4.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <div class="header">
+            <img id="logo" src="logo.png" alt="Логотип">
+            <h1>Название сайта</h1>
+        </div>
+    </header>
+
+    <div class="main">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 pl-0">
+                    <nav>
+                        <ul>
+                            <li><a href="#top" class="link"> Список ссылок </a></li>
+                            <li><a href="#table" class="link"> Таблица </a></li>
+                            <li><a href="#bottom" class="link"> Форма </a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row row-flex">
+            <div class="col-md-4">
+                <div class="h-100 my-3">
+                    <p><a name="top"></a></p>
+                    <div class="main">
+                        <ol>
+                            <li> <a href="http://example.com/"> Ссылка 1 </a> </li>
+                            <li> <a href="https://example.com/"> Ссылка 2 </a> </li>
+                            <li> <a href="ftp://example.com/file.zip/myfile.txt"> Ссылка 3 </a> </li>
+                            <li> <a href="ftp://liza:meow123@example.com/file.zip/myfile.txt"> Ссылка 4 </a> </li>
+                            <li> <a href="https://en.wikipedia.org/wiki/Wednesday#Etymology"> Ссылка 5 </a> </li>
+                            <li> <a href="#bottom"> Ссылка 6 </a> </li>
+                            <li> <a href="http://example.com/?P1=value1&P2=value2"> Ссылка 7 </a> </li>
+                            <li>
+                                <a title="Раздел 1" href="#top"> Ссылка 8.1 </a> <br>
+                                <a title="Раздел 2" href="#bottom"> Ссылка 8.2 </a>
+                            </li>
+                            <li> <a> Ссылка 9 </a> </li>
+                            <li> <a href=""> Ссылка 10 </a> </li>
+                            <li> <a href="http://example.com/" rel="nofollow"> Ссылка 11 </a> </li>
+                            <li>
+                                <!--noindex--> <a href="http://example.com/"> Ссылка 12 </a>
+                                <!--/noindex-->
+                            </li>
+                            <li>
+                                <p> Ссылка №13 - <a href="http://example.com/"> Ссылка 13 </a> </p>
+                            </li>
+                            <li class="img"> <a href="http://example.com/"> <img src="image.jpg" width="350"
+                                        height="300" alt="Изображение не найдено"></a> </li>
+                            <li>
+                                <img src="im2.jpg" usemap="#map" alt="Изображение не найдено">
+                                <map name="map">
+                                    <area shape="circle" coords="57,57,30" href="http://example.com/"
+                                        alt="Область не найдена">
+                                    <area shape="rect" coords="133,26,185,80" href="http://example.com/"
+                                        alt="Область не найдена">
+                                </map>
+                            </li>
+                            <li> <a href="page.html"> Ссылка 16 </a> </li>
+                            <li> <a href="/about/page.html"> Ссылка 17 </a> </li>
+                            <li> <a href="../page.html"> Ссылка 18 </a> </li>
+                            <li> <a href="../../page.html"> Ссылка 19 </a> </li>
+                            <li> <a href="/"> Ссылка 20 </a> </li>
+                            <li> <a href="/about"> Ссылка 21 </a> </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="h-100 my-3">
+                    <div id="table-form">
+                        <div class="main">
+                            <a name="table"></a>
+                            <table>
+                                <tr class="nechet">
+                                    <th> 1</th>
+                                    <th> 2</th>
+                                    <th> 3</th>
+                                    <th colspan="2"> 4</th>
+                                </tr>
+                                <tr class="chet">
+                                    <td rowspan="2"> Ячейка 1.1 </td>
+                                    <td> Ячейка 1.2 </td>
+                                    <td> Ячейка 1.3 </td>
+                                    <td> Ячейка 1.4 </td>
+                                    <td> Ячейка 1.5 </td>
+                                </tr>
+                                <tr class="nechet">
+
+                                    <td> Ячейка 2.2 </td>
+                                    <td> Ячейка 2.3 </td>
+                                    <td> Ячейка 2.4 </td>
+                                    <td> Ячейка 2.5 </td>
+                                </tr>
+                                <tr class="chet">
+                                    <td> Ячейка 3.1 </td>
+                                    <td> Ячейка 3.2 </td>
+                                    <td> Ячейка 3.3 </td>
+                                    <td> Ячейка 3.4 </td>
+                                    <td> Ячейка 3.5 </td>
+                                </tr>
+                                <tr class="nechet">
+                                    <td> Ячейка 4.1 </td>
+                                    <td> Ячейка 4.2 </td>
+                                    <td> Ячейка 4.3 </td>
+                                    <td> Ячейка 4.4 </td>
+                                    <td> Ячейка 4.5 </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="h-100 my-3">
+                    <div class="form">
+                        <form action="/" method="POST">
+                            <h2>Форма</h2>
+                            <label>
+                                Введите имя:<br>
+                                <input name="field-name-1" value="Имя">
+                            </label><br>
+                            <br>
+                            <label>
+                                Введите email:<br>
+                                <input name="field-email" type="email" placeholder="Введите Вашу почту">
+                            </label><br>
+                            <br>
+                            <label>
+                                Введите дату рождения:<br>
+                                <input name="field-date" value="2022-09-14" type="date">
+                            </label><br>
+                            <br>
+                            Ваш пол: <br>
+                            <label><input type="radio" checked="checked" name="radio-group-1"
+                                    value="female">Женский</label>
+                            <label><input type="radio" name="radio-group-1" value="male"> Мужской </label><br />
+                            <br>
+                            Количество конечностей: <br>
+                            <label><input type="radio" name="radio-group-2" value="0">0</label>
+                            <label><input type="radio" name="radio-group-2" value="1">1</label>
+                            <label><input type="radio" name="radio-group-2" value="2">2</label>
+                            <label><input type="radio" name="radio-group-2" value="3">3</label>
+                            <label><input type="radio" checked="checked" name="radio-group-2" value="4">4</label><br>
+                            <br>
+                            <label>
+                                Выберите сверхспособность:<br>
+                                <select name="field-name-4[]" multiple="multiple">
+                                    <option value="Значение1">Бессмертие</option>
+                                    <option value="Значение2">Прохождение сквозь стены</option>
+                                    <option value="Значение3">Левитация</option>
+                                </select>
+                            </label><br>
+                            <br>
+                            <label>
+                                Биография:<br>
+                                <textarea name="field-name-2">Моя биография</textarea>
+                            </label><br>
+                            <br>
+                            <label><input type="checkbox" checked="checked" name="check-1">С контрактом
+                                ознакомлен(а)</label><br>
+                            <br>
+                            <input type="submit" value="Отправить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <p><a name="bottom"></a></p>
+    </div>
+    <footer>
+        <p>(c) Мостовая Елизавета 2022</p>
+    </footer>
+</body>
+
+</html>
