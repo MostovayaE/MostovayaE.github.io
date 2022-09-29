@@ -14,6 +14,7 @@
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.min.js"
         integrity="sha512-UR25UO94eTnCVwjbXozyeVd6ZqpaAE9naiEUBK/A+QDbfSTQFhPGj5lOR6d8tsgbBk84Ggb5A3EkjsOgPRPcKA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" />
     <title> Задание 4</title>
     <link rel="stylesheet" href="style4.css">
 
@@ -25,28 +26,22 @@
     <header>
         <div class="header">
             <img id="logo" src="logo.png" alt="Логотип">
-            <h1>Название сайта</h1>
+            <h2>Название сайта</h2>
         </div>
     </header>
 
     <div class="main">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12 pl-0">
-                    <nav>
-                        <ul>
-                            <li><a href="#top" class="link"> Список ссылок </a></li>
-                            <li><a href="#table" class="link"> Таблица </a></li>
-                            <li><a href="#bottom" class="link"> Форма </a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
+        <nav>
+            <ul>
+                <li><a href="#top" class="link"> Список ссылок </a></li>
+                <li><a href="#table" class="link"> Таблица </a></li>
+                <li><a href="#bottom" class="link"> Форма </a></li>
+            </ul>
+        </nav>
     </div>
     <div class="container-fluid">
         <div class="row row-flex">
-            <div class="col-md-4">
+            <div class="col-md-4 mb-sm-2 mb-md-0">
                 <div class="h-100 my-3">
                     <p><a name="top"></a></p>
                     <div class="main">
@@ -95,7 +90,7 @@
             </div>
 
 
-            <div class="col-md-4">
+            <div class="col-md-4 order-2 order-sm-2 order-md-1">
                 <div class="h-100 my-3">
                     <div id="table-form">
                         <div class="main">
@@ -141,7 +136,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-md-4 order-1 order-sm-1 order-md-2 mb-sm-2 mb-md-0">
                 <div class="h-100 my-3">
                     <div class="form">
                         <form action="/" method="POST">
