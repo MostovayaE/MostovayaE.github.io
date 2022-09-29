@@ -145,9 +145,7 @@ footer {
     
 }
 
-.my-sm-5 {
-    margin-bottom: 10px;
-}
+
 
 @media screen and (min-width: 1100px) {
     body {
@@ -286,4 +284,5 @@ footer {
         background-color: rgb(76, 156, 83);
         
     }
+    
 }
