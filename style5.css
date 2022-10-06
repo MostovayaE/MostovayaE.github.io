@@ -1,19 +1,30 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: rgb(141, 72, 72);
+    background-color: rgb(81, 123, 99);
 }
 
 .main {
     margin: 0 auto;
     max-width: 960px;
-    background-color: rgb(135, 47, 47);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    background-color: rgb(57, 85, 62);
+    padding: 10px;
+    
     margin-top: 15px;
     margin-bottom: 0px;
-    padding-right: 10px;
+    
+    
 
+}
+
+.field {
+    margin: 5px;
+    margin-bottom: 10px;
+    
+}
+
+#result {
+    margin-left: 10px;
 }
 
 
