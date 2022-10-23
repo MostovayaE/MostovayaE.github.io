@@ -1,0 +1,81 @@
+body{
+	background-size: 400% 400%;
+    background-color:rgb(109, 138, 83);
+}
+
+.сontainer__gallery{
+    background-color:rgb(197, 194, 156);
+}
+
+.slick-slider{
+	min-width: 0;
+}
+
+.slick-list {
+	overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+	display: flex;
+	align-items: flex-start;
+}
+
+.slider {
+    border:0px solid black;
+	position: relative;
+	padding: 0px 60px;
+}
+
+
+.slider .slick-arrow{
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 35px;
+	height: 35px;
+    border:0px;
+}
+.slider .slick-arrow.slick-prev{
+	left: 0;
+    background:rgb(12, 15, 15);
+	background: url("arrow_left.svg") 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-next{
+	right: 0;
+	background: url("arrow_right.svg") 0 0 / 100% no-repeat;
+}
+.slider .slick-arrow.slick-disabled{
+	opacity: 0.2;
+}
+
+.slider .slick-dots{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider .slick-dots li{
+	list-style: none;
+	margin: 0px 10px;
+    
+}
+.slider .slick-dots button{
+	font-size: 0;
+	width: 10px;
+	height: 10px;
+	background-color:rgb(197, 194, 156);
+	border-radius: 50%;
+}
+
+.slider .slick-dots li.slick-active button{
+	background-color: transparent;
+	border: 1px solid rgb(109, 138, 83);
+}
+
+.slider__item {
+	padding: 0px 15px;
+}
+.slider__item img{
+	max-width: 100%;
+}
